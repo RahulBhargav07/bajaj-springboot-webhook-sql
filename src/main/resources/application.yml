@@ -1,0 +1,15 @@
+app:
+  name: "John Doe"
+  regNo: "REG12347"
+  email: "john@example.com"
+  baseUrl: "https://bfhldevapigw.healthrx.co.in/hiring"
+  generate-endpoint: "/generateWebhook/JAVA"
+  default-submit-endpoint: "/testWebhook/JAVA"
+
+spring:
+  main:
+    web-application-type: servlet
+logging:
+  level:
+    root: INFO
+    com.example.webhook: INFO
